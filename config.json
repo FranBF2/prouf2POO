@@ -1,0 +1,18 @@
+{
+    "dbconf_dev":{
+        "driver":"mysql",
+        "dbhost":"127.0.0.1",
+        "dbname":"prouf1",
+        "dbuser":"prouf1",
+        "dbpass":"linuxlinux",
+        "web":"http://localhost:3000/",
+        "root":"/"
+    },
+    "dbconf_pro":{
+        "driver":"mysql",
+        "dbhost":"localhost",
+        "dbname":"BeFr_prouf1",
+        "dbuser":"BeFr_prouf1",
+        "dbpass":"linuxlinux"
+    }
+}
