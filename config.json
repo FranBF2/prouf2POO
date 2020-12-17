@@ -13,6 +13,8 @@
         "dbhost":"localhost",
         "dbname":"BeFr_prouf1",
         "dbuser":"BeFr_prouf1",
-        "dbpass":"linuxlinux"
+        "dbpass":"linuxlinux",
+        "web":"/m7/prouf2POO/",
+        "root":"/m7/prouf2POO/"
     }
 }
