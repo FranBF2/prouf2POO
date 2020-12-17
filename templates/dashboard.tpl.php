@@ -52,7 +52,7 @@ include 'header.tpl.php';
         DashboardController::dash();
     ?>
     </div>
-    <br><form action="/dashboard/insert" method="post">
+    <br><form action="<?=BASE;?>dashboard/insert" method="post">
         <input type="textarea" name="desc" placeholder="max 500 caraceteres">
         <input type="date" name="fecha">
         <input type="submit" value="Enviar">

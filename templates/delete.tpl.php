@@ -15,7 +15,7 @@ include 'header.tpl.php';
 </head>
 <body>
     <div id="form">
-        <br><form action="/delete/delete" method="post">
+        <br><form action="<?=BASE;?>delete/delete" method="post">
             <input type="number" name="id"><br>
             <input type="submit" value="Enviar"><br>
         </form><br>
