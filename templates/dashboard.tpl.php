@@ -57,9 +57,9 @@ include 'header.tpl.php';
         <input type="date" name="fecha">
         <input type="submit" value="Enviar">
     </form><br>
-    <a href="/delete">Eliminar</a><br><br>
-    <a href="/update">Modificar</a><br><br>
-    <a href="/index">Home</a>
+    <a href="<?=BASE;?>delete">Eliminar</a><br><br>
+    <a href="<?=BASE;?>update">Modificar</a><br><br>
+    <a href="<?=BASE;?>index">Home</a>
 </body>
 </html>
 <?php

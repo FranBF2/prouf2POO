@@ -19,9 +19,9 @@ include 'header.tpl.php';
             <input type="number" name="id"><br>
             <input type="submit" value="Enviar"><br>
         </form><br>
-        <a href="dashboard">Tareas</a><br><br>
-        <a href="update">Modificar</a><br><br>
-        <a href="index">Home</a>
+        <a href="<?=BASE;?>dashboard">Tareas</a><br><br>
+        <a href="<?=BASE;?>update">Modificar</a><br><br>
+        <a href="<?=BASE;?>index">Home</a>
     </div>
 </body>
 </html>
