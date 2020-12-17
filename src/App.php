@@ -12,7 +12,9 @@ final class App{
     public static function run(){
         $routes=self::getRoutes();
         self::$session = new Session();
-        self::$req=new Request;
+        self::$req=new Request();
+        var_dump(self::$req);
+        die;
         $controller=self::$req->getController();
         self::$action=self::$req->getAction();
         self::dispatch($controller, $routes);

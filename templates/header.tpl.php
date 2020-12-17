@@ -37,8 +37,8 @@
         <h1>Fran's TODO</h1>
     </header>
     <nav>
-        <div><a id="login" href="/login">Login</a></div>
-        <div><a id="register" href="/register">Register</a></div>
+        <div><a id="login" href="<?=BASE;?>login">Login</a></div>
+        <div><a id="register" href="<?=BASE;?>register">Register</a></div>
         <?php 
             use App\Session;
             if(Session::get('email') != null){
